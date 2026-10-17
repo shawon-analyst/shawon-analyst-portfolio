@@ -401,7 +401,11 @@ export default function ContactForm() {
             </>
           )}
         </button>
-        <p className="text-xs text-muted">Sent straight to my inbox — I reply within a day or two.</p>
+        <p className="text-xs text-muted">
+          {FORMSPREE_ENDPOINT
+            ? "Sent straight to my inbox — I reply within a day or two."
+            : "Opens your email app with the details filled in."}
+        </p>
       </div>
     </form>
   );
