@@ -6,18 +6,42 @@ import { AlertCircle, CheckCircle2, Loader2, Send } from "lucide-react";
 import { site } from "@/lib/site";
 
 /**
- * Formspree form ID that submissions are POSTed to.
+ * Formspree - fill in ONE of the two options below and the form delivers
+ * straight to the inbox. Both work; set only one.
  *
- * Set NEXT_PUBLIC_FORMSPREE_ID to the ID from your form's endpoint
- * (https://formspree.io/f/XXXXXXXX -> XXXXXXXX). The value is public by design:
- * it is what the browser posts to, and it is what forwards the message to the
- * inbox. Formspree's own filters and the honeypot below handle spam.
+ *   Option A - paste the ID in this file. Simplest, and it ships with the next
+ *              deploy: put it between the quotes on FORMSPREE_FORM_ID_IN_CODE.
  *
- * While it is unset the form still works - it hands the message to the visitor's
- * mail client instead of dropping it - so the site is never left with a form
- * that silently does nothing.
+ *   Option B - set the environment variable NEXT_PUBLIC_FORMSPREE_ID, either in
+ *              .env.local (then restart `npm run dev`) or in Vercel under
+ *              Settings -> Environment Variables (then redeploy).
+ *
+ * Next.js bakes NEXT_PUBLIC_* values in at build time, so a server or deployment
+ * that is already running will not pick up a new value until it is restarted or
+ * redeployed. That is the usual reason a form still behaves as unconfigured.
+ *
+ * Where to find the ID: your form's endpoint looks like
+ * https://formspree.io/f/XXXXXXXX - the ID is the XXXXXXXX part.
+ *
+ * The ID is public by design: it ships in the browser bundle and is exactly what
+ * the browser posts to. Spam is handled by Formspree's filters and the hidden
+ * honeypot field further down this file.
+ *
+ * Until one of the two is filled in, submitting hands the message to the
+ * visitor's mail client instead of dropping it, so the form never silently does
+ * nothing.
  */
-const FORMSPREE_FORM_ID = (process.env.NEXT_PUBLIC_FORMSPREE_ID ?? "").trim();
+
+/** Option A: paste your Formspree form ID here, e.g. "mqkrbdqw". */
+const FORMSPREE_FORM_ID_IN_CODE = "";
+
+/** Option B wins when both are set; the pasted ID is the fallback. */
+const FORMSPREE_FORM_ID = (
+  process.env.NEXT_PUBLIC_FORMSPREE_ID ||
+  FORMSPREE_FORM_ID_IN_CODE ||
+  ""
+).trim();
+
 const FORMSPREE_ENDPOINT = FORMSPREE_FORM_ID
   ? `https://formspree.io/f/${FORMSPREE_FORM_ID}`
   : "";
