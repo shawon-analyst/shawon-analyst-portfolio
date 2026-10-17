@@ -33,7 +33,7 @@ import { site } from "@/lib/site";
  */
 
 /** Option A: paste your Formspree form ID here, e.g. "mqkrbdqw". */
-const FORMSPREE_FORM_ID_IN_CODE = "";
+const FORMSPREE_FORM_ID_IN_CODE = "xgaodppz";
 
 /** Option B wins when both are set; the pasted ID is the fallback. */
 const FORMSPREE_FORM_ID = (
@@ -215,7 +215,7 @@ export default function ContactForm() {
           <CheckCircle2 className="h-6 w-6" aria-hidden="true" />
         </span>
         <div>
-          <h3 className="text-lg">Thank you, your message has been sent!</h3>
+          <h3 className="text-lg">Thank you! Your message has been sent successfully.</h3>
           <p className="mt-2 text-sm leading-relaxed text-muted">
             It is in my inbox now and I&apos;ll get back to you within a day or two. If
             anything else comes to mind, you can send another message any time.
