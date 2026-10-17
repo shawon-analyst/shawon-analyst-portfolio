@@ -166,7 +166,7 @@ Use the following content in `data/projects.json`. All figures below are taken f
   - Veg orders carry the highest rating count on the lowest volume; Non-veg is the reverse.
   - Sales peaked in 2018 at 1.0M and eased to 0.4M by 2020.
 - **Business impact:** Gives commercial and retention teams one navigable report spanning sales performance, customer health and city-level operations.
-- **Live report:** the repository README links a public Power BI build. `demo` is left empty here — add that URL to surface the *Live demo* button on the case study.
+- **Live report:** `demo` holds the public Power BI build linked from the repository README, which surfaces the *Live demo* button on the case study. The other three case studies have no published report, so their `demo` stays empty and no button is shown.
 
 ### Data entry format
 
@@ -255,7 +255,7 @@ npm install framer-motion lucide-react
 | `npm run lint` | ESLint using the Next.js core-web-vitals and TypeScript rules |
 | `npm run assets:images` | Rebuild the dashboard images in `public/images` (add `-- --force` to overwrite) |
 | `npm run assets:brand` | Rebuild the favicon, Apple touch icon and navbar avatar from `img/favicon.png` (add `-- --force` to overwrite) |
-| `npm run assets:resume` | Regenerate `public/Md-Idris-Resume.pdf` from the portfolio content (one page, with clickable email / GitHub / LinkedIn / portfolio links) |
+| `npm run assets:resume` | Regenerate `public/Md-Idris-Resume.pdf` from the portfolio content (one page covering all four case studies, with clickable email / GitHub / LinkedIn / portfolio links) |
 
 ### Environment variables
 

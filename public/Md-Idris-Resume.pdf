@@ -10,7 +10,7 @@ endobj
 << /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding >>
 endobj
 4 0 obj
-<< /Length 8107 >>
+<< /Length 8519 >>
 stream
 0.043 0.071 0.125 rg 0.00 741.89 595.28 100.00 re f
 0.231 0.51 0.965 rg 0.00 741.89 595.28 1.20 re f
@@ -43,52 +43,55 @@ BT 0.29 0.353 0.447 rg /F1 9.6 Tf 0 Tc 1 0 0 1 181.36 589.89 Tm (Python, Pandas,
 0.231 0.51 0.965 rg 56.00 567.79 4.00 4.00 re f
 BT 0.231 0.51 0.965 rg /F2 10 Tf 0.9 Tc 1 0 0 1 68.00 568.89 Tm (FEATURED PROJECTS) Tj ET
 0.886 0.91 0.945 RG 0.7 w 56.00 561.89 m 539.28 561.89 l S
-BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 546.89 Tm (BanglaLedger - Financial Transaction Analytics Dashboard) Tj ET
-BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 534.89 Tm (Power BI, DAX, Power Query, Star-schema data modeling) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 520.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 520.89 Tm (Built a full-scale financial dashboard modelling 8 transaction types across 5 customer segments and 8) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 508.39 Tm (Bangladesh divisions.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 495.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 495.89 Tm (Delivered five dynamic KPI cards - Amount, Transactions, Average Value, Fee and Tax - each with automatic) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 483.39 Tm (year-over-year growth indicators.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 470.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 470.89 Tm (Created a parameter-driven trend chart that switches metrics in a single click, plus Success/Failed/Pending) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 458.39 Tm (status analysis with transaction-level drill-down.) Tj ET
-BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 439.89 Tm (Sales Performance Dashboard) Tj ET
-BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 427.89 Tm (Advanced Excel, SUMIFS, MAXIFS, CHOOSE/SWITCH, Synchronized slicers) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 413.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 413.89 Tm (Built a fully interactive sales dashboard with synchronized slicers across Region, Product and Sales Person.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 401.39 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 401.39 Tm (Analysed 1B+ in aggregate sales, including 178M in revenue from Sylhet and 293.5M from the Laptop product) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 388.89 Tm (line.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 376.39 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 376.39 Tm (Added a one-click Qty/Sales toggle and a formula-driven radial network diagram for regional performance) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 363.89 Tm (analysis.) Tj ET
-BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 345.39 Tm (Bank Loan Data Analysis) Tj ET
-BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 333.39 Tm (Python, Pandas, Plotly Express) Tj ET
+BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 547.89 Tm (BanglaLedger - Financial Transaction Analytics Dashboard) Tj ET
+BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 535.89 Tm (Power BI, DAX, Power Query, Star-schema data modeling) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 521.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 521.89 Tm (Modelled 8 transaction types across 5 customer segments and 8 Bangladesh divisions in one star schema.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 509.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 509.39 Tm (Built five dynamic KPI cards - Amount, Transactions, Average Value, Fee and Tax - with YoY growth.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 496.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 496.89 Tm (Added a parameter-driven trend chart and status analysis with transaction-level drill-down.) Tj ET
+BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 480.39 Tm (Sales Performance Dashboard) Tj ET
+BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 468.39 Tm (Advanced Excel, SUMIFS, MAXIFS, CHOOSE/SWITCH, Synchronized slicers) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 454.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 454.39 Tm (Built a fully interactive Excel dashboard with synchronized Region, Product and Sales Person slicers.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 441.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 441.89 Tm (Analysed 1B+ in sales, including 178M from Sylhet and 293.5M from the Laptop product line.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 429.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 429.39 Tm (Added a one-click Qty/Sales toggle and a formula-driven radial network diagram.) Tj ET
+BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 412.89 Tm (Bank Loan Data Analysis) Tj ET
+BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 400.89 Tm (Python, Pandas, Plotly Express) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 386.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 386.89 Tm (Analysed bank lending data to uncover loan distribution patterns, borrower demographics and risk drivers.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 374.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 374.39 Tm (Found Debt Consolidation the dominant loan purpose, with 10+ year tenures funded the most.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 361.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 361.89 Tm (Linked home ownership status \(Rent/Mortgage\) to loan volume, rising steadily toward year-end.) Tj ET
+BT 0.043 0.071 0.125 rg /F2 10.8 Tf 0 Tc 1 0 0 1 56.00 345.39 Tm (FoodPanda Sales & Customer Analytics Dashboard) Tj ET
+BT 0.231 0.51 0.965 rg /F3 8.8 Tf 0 Tc 1 0 0 1 56.00 333.39 Tm (Power BI, DAX, Power Query, Custom visuals, Bookmarks) Tj ET
 BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 319.39 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 319.39 Tm (Analysed bank lending data to uncover loan distribution patterns, borrower demographics and risk drivers.) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 319.39 Tm (Modelled 150,281 orders from 87 cities into a star schema reporting 987M in sales and 240K ratings.) Tj ET
 BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 306.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 306.89 Tm (Found Debt Consolidation to be the dominant loan purpose and borrowers with 10+ years of employment) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 294.39 Tm (tenure to receive the highest funding volume.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 281.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 281.89 Tm (Linked home ownership status \(Rent/Mortgage\) to loan volume, with funding rising steadily toward year-end.) Tj ET
-0.231 0.51 0.965 rg 56.00 258.29 4.00 4.00 re f
-BT 0.231 0.51 0.965 rg /F2 10 Tf 0.9 Tc 1 0 0 1 68.00 259.39 Tm (SELECTED OUTCOMES) Tj ET
-0.886 0.91 0.945 RG 0.7 w 56.00 252.39 m 539.28 252.39 l S
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 239.39 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 239.39 Tm (Gives executives a real-time view of transaction performance, risk and customer behavior through one) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 226.89 Tm (finance-grade interface.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 214.39 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 214.39 Tm (Enables real-time sales performance tracking without IT dependency.) Tj ET
-BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 201.89 Tm (-) Tj ET
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 201.89 Tm (Supports risk assessment and lending strategy through clear, data-backed borrower patterns.) Tj ET
-0.231 0.51 0.965 rg 56.00 182.29 4.00 4.00 re f
-BT 0.231 0.51 0.965 rg /F2 10 Tf 0.9 Tc 1 0 0 1 68.00 183.39 Tm (PORTFOLIO) Tj ET
-0.886 0.91 0.945 RG 0.7 w 56.00 176.39 m 539.28 176.39 l S
-BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 56.00 163.39 Tm (Case studies, dashboard screenshots and live repositories: ) Tj ET
-BT 0.231 0.51 0.965 rg /F1 9.5 Tf 0 Tc 1 0 0 1 307.33 163.39 Tm (shawon-analyst-portfolio.vercel.app) Tj ET
-0.231 0.51 0.965 RG 0.5 w 307.33 161.09 m 456.75 161.09 l S
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 306.89 Tm (Exposed churn outpacing acquisition - 32,798 lost against 11,635 gained, a net decline of ~21,000.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 294.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 294.39 Tm (Proved the city leading on order volume is not the city leading on sales value or order count.) Tj ET
+0.231 0.51 0.965 rg 56.00 271.79 4.00 4.00 re f
+BT 0.231 0.51 0.965 rg /F2 10 Tf 0.9 Tc 1 0 0 1 68.00 272.89 Tm (SELECTED OUTCOMES) Tj ET
+0.886 0.91 0.945 RG 0.7 w 56.00 265.89 m 539.28 265.89 l S
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 252.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 252.89 Tm (Gives executives a real-time view of transaction performance, risk and behavior in one interface.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 240.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 240.39 Tm (Enables real-time sales performance tracking without IT dependency.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 227.89 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 227.89 Tm (Supports risk assessment and lending strategy through clear, data-backed borrower patterns.) Tj ET
+BT 0.231 0.51 0.965 rg /F2 9.5 Tf 0 Tc 1 0 0 1 57.00 215.39 Tm (-) Tj ET
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 69.00 215.39 Tm (Gives retention teams one view of churn against acquisition, by city and gender.) Tj ET
+0.231 0.51 0.965 rg 56.00 195.79 4.00 4.00 re f
+BT 0.231 0.51 0.965 rg /F2 10 Tf 0.9 Tc 1 0 0 1 68.00 196.89 Tm (PORTFOLIO) Tj ET
+0.886 0.91 0.945 RG 0.7 w 56.00 189.89 m 539.28 189.89 l S
+BT 0.29 0.353 0.447 rg /F1 9.5 Tf 0 Tc 1 0 0 1 56.00 176.89 Tm (Case studies, dashboard screenshots and live repositories: ) Tj ET
+BT 0.231 0.51 0.965 rg /F1 9.5 Tf 0 Tc 1 0 0 1 307.33 176.89 Tm (shawon-analyst-portfolio.vercel.app) Tj ET
+0.231 0.51 0.965 RG 0.5 w 307.33 174.59 m 456.75 174.59 l S
 BT 0.29 0.353 0.447 rg /F1 8 Tf 0 Tc 1 0 0 1 56 34 Tm (Md Idris - Data Analyst) Tj ET
 BT 0.29 0.353 0.447 rg /F1 8 Tf 0 Tc 1 0 0 1 498.36 34 Tm (Page 1 of 1) Tj ET
 0.886 0.91 0.945 RG 0.7 w 56 46 m 539.28 46 l S
@@ -110,7 +113,7 @@ endobj
 << /Type /Annot /Subtype /Link /Rect [399.27 757.54 531.38 766.95] /Border [0 0 0] /A << /S /URI /URI (https://shawon-analyst-portfolio.vercel.app) >> >>
 endobj
 10 0 obj
-<< /Type /Annot /Subtype /Link /Rect [307.33 160.73 456.75 171.37] /Border [0 0 0] /A << /S /URI /URI (https://shawon-analyst-portfolio.vercel.app) >> >>
+<< /Type /Annot /Subtype /Link /Rect [307.33 174.23 456.75 184.87] /Border [0 0 0] /A << /S /URI /URI (https://shawon-analyst-portfolio.vercel.app) >> >>
 endobj
 11 0 obj
 << /Type /Pages /Kids [5 0 R] /Count 1 >>
@@ -125,16 +128,16 @@ xref
 0000000112 00000 n 
 0000000214 00000 n 
 0000000319 00000 n 
-0000008478 00000 n 
-0000008672 00000 n 
-0000008826 00000 n 
-0000008985 00000 n 
-0000009152 00000 n 
-0000009321 00000 n 
-0000009491 00000 n 
-0000009549 00000 n 
+0000008890 00000 n 
+0000009084 00000 n 
+0000009238 00000 n 
+0000009397 00000 n 
+0000009564 00000 n 
+0000009733 00000 n 
+0000009903 00000 n 
+0000009961 00000 n 
 trailer
 << /Size 13 /Root 12 0 R /Info << /Title (Md Idris - Data Analyst Resume) /Author (Md Idris) >> >>
 startxref
-9661
+10073
 %%EOF

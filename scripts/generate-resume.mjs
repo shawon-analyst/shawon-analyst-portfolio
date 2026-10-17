@@ -250,14 +250,14 @@ function definitionLine(labelText, value) {
 }
 
 function projectBlock({ title, tools, points }) {
-  pdf.ensure(70);
-  pdf.y -= 2;
+  pdf.ensure(68);
+  pdf.y -= 1;
   pdf.text(title, MARGIN, pdf.y, { size: 10.8, font: FONT.bold });
   pdf.y -= 12;
   pdf.text(tools, MARGIN, pdf.y, { size: 8.8, font: FONT.italic, color: COLOR.accent });
   pdf.y -= 14;
   for (const point of points) bullet(point);
-  pdf.y -= 4;
+  pdf.y -= 3;
 }
 
 /* -------------------------------- header -------------------------------- */
@@ -328,9 +328,9 @@ projectBlock({
   title: "BanglaLedger - Financial Transaction Analytics Dashboard",
   tools: "Power BI, DAX, Power Query, Star-schema data modeling",
   points: [
-    "Built a full-scale financial dashboard modelling 8 transaction types across 5 customer segments and 8 Bangladesh divisions.",
-    "Delivered five dynamic KPI cards - Amount, Transactions, Average Value, Fee and Tax - each with automatic year-over-year growth indicators.",
-    "Created a parameter-driven trend chart that switches metrics in a single click, plus Success/Failed/Pending status analysis with transaction-level drill-down.",
+    "Modelled 8 transaction types across 5 customer segments and 8 Bangladesh divisions in one star schema.",
+    "Built five dynamic KPI cards - Amount, Transactions, Average Value, Fee and Tax - with YoY growth.",
+    "Added a parameter-driven trend chart and status analysis with transaction-level drill-down.",
   ],
 });
 
@@ -338,9 +338,9 @@ projectBlock({
   title: "Sales Performance Dashboard",
   tools: "Advanced Excel, SUMIFS, MAXIFS, CHOOSE/SWITCH, Synchronized slicers",
   points: [
-    "Built a fully interactive sales dashboard with synchronized slicers across Region, Product and Sales Person.",
-    "Analysed 1B+ in aggregate sales, including 178M in revenue from Sylhet and 293.5M from the Laptop product line.",
-    "Added a one-click Qty/Sales toggle and a formula-driven radial network diagram for regional performance analysis.",
+    "Built a fully interactive Excel dashboard with synchronized Region, Product and Sales Person slicers.",
+    "Analysed 1B+ in sales, including 178M from Sylhet and 293.5M from the Laptop product line.",
+    "Added a one-click Qty/Sales toggle and a formula-driven radial network diagram.",
   ],
 });
 
@@ -349,15 +349,26 @@ projectBlock({
   tools: "Python, Pandas, Plotly Express",
   points: [
     "Analysed bank lending data to uncover loan distribution patterns, borrower demographics and risk drivers.",
-    "Found Debt Consolidation to be the dominant loan purpose and borrowers with 10+ years of employment tenure to receive the highest funding volume.",
-    "Linked home ownership status (Rent/Mortgage) to loan volume, with funding rising steadily toward year-end.",
+    "Found Debt Consolidation the dominant loan purpose, with 10+ year tenures funded the most.",
+    "Linked home ownership status (Rent/Mortgage) to loan volume, rising steadily toward year-end.",
+  ],
+});
+
+projectBlock({
+  title: "FoodPanda Sales & Customer Analytics Dashboard",
+  tools: "Power BI, DAX, Power Query, Custom visuals, Bookmarks",
+  points: [
+    "Modelled 150,281 orders from 87 cities into a star schema reporting 987M in sales and 240K ratings.",
+    "Exposed churn outpacing acquisition - 32,798 lost against 11,635 gained, a net decline of ~21,000.",
+    "Proved the city leading on order volume is not the city leading on sales value or order count.",
   ],
 });
 
 heading("Selected Outcomes");
-bullet("Gives executives a real-time view of transaction performance, risk and customer behavior through one finance-grade interface.");
+bullet("Gives executives a real-time view of transaction performance, risk and behavior in one interface.");
 bullet("Enables real-time sales performance tracking without IT dependency.");
 bullet("Supports risk assessment and lending strategy through clear, data-backed borrower patterns.");
+bullet("Gives retention teams one view of churn against acquisition, by city and gender.");
 
 heading("Portfolio");
 
