@@ -1,0 +1,182 @@
+[
+  {
+    "slug": "banglaledger",
+    "name": "BanglaLedger — Financial Transaction Analytics Dashboard",
+    "shortName": "BanglaLedger",
+    "subtitle": "Financial Transaction Analytics Dashboard",
+    "image": "/images/banglaledger-cover.jpg",
+    "imageAlt": "BanglaLedger Power BI Overview Analysis page with five KPI cards for amount, transactions, average value, fee and tax, each carrying a year-over-year indicator, above an Amount by Month Name trend line, a transaction status donut, customer segment, gender and division breakdowns, and an eight-row transaction type table.",
+    "gallery": ["/images/banglaledger-1.jpg"],
+    "galleryCaptions": [
+      "Transactions page — the audit-style register with transaction ID, date, customer name, type, status, gender, customer segment, division, amount, fee and tax for every individual record."
+    ],
+    "role": "Data Analyst & Dashboard Developer",
+    "projectType": "Business Intelligence Dashboard",
+    "tools": ["Power BI", "DAX", "Power Query", "Star-Schema Data Modeling"],
+    "insight": "Eight transaction types across five customer segments and eight Bangladesh divisions consolidated into one finance-grade view with live year-over-year KPI tracking.",
+    "impact": "Gives executives a real-time view of transaction performance, risk and customer behavior through a finance-grade interface.",
+    "overview": "BanglaLedger is a full-scale financial transaction analytics dashboard modelling 8 transaction types across 5 customer segments and 8 Bangladesh divisions. The problem was that transaction reporting lived in scattered extracts, so nobody could see performance, failure risk and customer behavior in one place. The objective was a single governed model that executives could interrogate in real time.",
+    "data": {
+      "source": "Financial transaction ledger covering 8 transaction types, 5 customer segments and 8 Bangladesh divisions.",
+      "volume": "Transaction-level records carrying amount, fee, tax, status and timestamp for every entry.",
+      "structure": "Star schema — one transaction fact table joined to date, division, transaction type and customer segment dimensions."
+    },
+    "approach": [
+      "Profiled the raw transaction extracts in Power Query, removing duplicates, correcting data types and standardizing division and segment labels.",
+      "Reshaped the flat extract into a star schema with dedicated dimension tables for date, division, transaction type and customer segment.",
+      "Wrote reusable DAX measures for Amount, Transactions, Average Value, Fee and Tax, each paired with a time-intelligence measure for year-over-year growth.",
+      "Built a parameter table so the trend visual can switch between metrics without duplicating pages or visuals.",
+      "Designed the report around an executive reading path: KPI row, trend, status breakdown, then transaction-level drill-down."
+    ],
+    "insights": [
+      "Five dynamic KPI cards report Amount, Transactions, Average Value, Fee and Tax, each with an automatic year-over-year growth indicator.",
+      "A parameter-driven trend chart switches between metrics with a single click, replacing five near-identical visuals.",
+      "Success, Failed and Pending status analysis is available at every level, with full transaction-level drill-down.",
+      "Modelling 8 transaction types across 5 customer segments and 8 divisions keeps every slice of the business inside one model."
+    ],
+    "businessImpact": [
+      "Executives monitor transaction performance, failure risk and customer behavior in real time instead of waiting for an end-of-period report.",
+      "Failed and pending transactions can be investigated down to the individual record, shortening the path from signal to action.",
+      "A single governed model replaces scattered spreadsheet extracts, so every stakeholder reads the same numbers."
+    ],
+    "github": "https://github.com/shawon-analyst/BanglaLedger-Financial-Transaction-Analytics-Dashboard",
+    "demo": ""
+  },
+  {
+    "slug": "sales-performance-dashboard",
+    "name": "Sales Performance Dashboard",
+    "shortName": "Sales Performance Dashboard",
+    "subtitle": "Interactive Excel Sales Analytics",
+    "image": "/images/sales-performance-cover.jpg",
+    "imageAlt": "Excel sales performance dashboard in QTY mode: a region-wise QTY analysis connecting six divisions to a total of 359 units, beside person-wise quantities for eight representatives and product-wise quantities, with Chair and Chittagong selected through the Product, Region and Qty/Sales slicers.",
+    "gallery": ["/images/sales-performance-1.png", "/images/sales-performance-2.png"],
+    "galleryCaptions": [
+      "Sales view — the same three visuals in SALES mode, with every regional node, sales person and product sized by revenue against a total of 1B and Sylhet and Laptop flagged as the top performers.",
+      "Cross-filtered view — slicing Khulna and Table pulls the total down to 5.6M and re-ranks the remaining regions, sales people and products for that one slice."
+    ],
+    "role": "Data Analyst & Dashboard Developer",
+    "projectType": "Interactive Excel Dashboard",
+    "tools": ["Advanced Excel", "SUMIFS", "MAXIFS", "CHOOSE/SWITCH", "Slicers"],
+    "insight": "1B+ in aggregate sales broken down by region, product line and sales person — all from one fully interactive Excel model.",
+    "impact": "Enables real-time performance tracking without IT dependency.",
+    "overview": "A fully interactive sales dashboard built in Advanced Excel with synchronized slicers across Region, Product and Sales Person. Commercial teams needed self-service performance tracking that did not depend on a new report being built for every question. The deliverable answers region, product line and sales person questions in a single workbook.",
+    "data": {
+      "source": "Transactional sales records spanning regions, product lines and sales people.",
+      "volume": "1B+ in aggregate sales analysed, including 178M from Sylhet and 293.5M from the Laptop product line.",
+      "structure": "Clean input table feeding a formula-driven reporting layer built on SUMIFS, MAXIFS and CHOOSE/SWITCH rather than a pivot cache."
+    },
+    "approach": [
+      "Structured the raw sales extract into a tidy input table with consistent region, product and sales person labels.",
+      "Built a dynamic reporting layer with SUMIFS and MAXIFS so every KPI recalculates from slicer selections.",
+      "Used CHOOSE/SWITCH to drive the one-click Qty / Sales toggle that reframes every visual.",
+      "Synchronized slicers across Region, Product and Sales Person so one selection filters the whole dashboard.",
+      "Designed a formula-driven radial network diagram to make regional contribution immediately readable."
+    ],
+    "insights": [
+      "1B+ in aggregate sales analysed in a single interactive model.",
+      "178M in revenue from Sylhet, the strongest performing region.",
+      "293.5M in revenue from the Laptop product line, the largest product contributor.",
+      "One-click Qty / Sales toggle plus a formula-driven radial network diagram for regional analysis."
+    ],
+    "businessImpact": [
+      "Sales leadership tracks performance in real time without raising an IT request or waiting for month-end reporting.",
+      "Regional and product contribution is visible in one screen, making it obvious where to push and where to protect.",
+      "The Qty / Sales toggle lets the same workbook answer volume and value questions without a rebuild."
+    ],
+    "github": "https://github.com/shawon-analyst/sales-performance-dashboard-excel",
+    "demo": ""
+  },
+  {
+    "slug": "bank-loan-data-analysis",
+    "name": "Bank Loan Data Analysis",
+    "shortName": "Bank Loan Data Analysis",
+    "subtitle": "Exploratory Lending Analysis in Python",
+    "image": "/images/bank-loan-cover.png",
+    "imageAlt": "Dark-themed financial dashboard mockup with a yield curve, investment panel, ROI performance metrics and a security evaluation score.",
+    "heroImage": "/images/bank-loan-hero.png",
+    "heroImageAlt": "Python analysis preview: a notebook cell importing pandas and Plotly Express, reading loan_data.csv, deriving the issue month and grouping funded amount by loan term, beside a dark bar chart showing 36-month loans at 273.0M against 162.7M for 60-month terms.",
+    "heroCaption": "Bank Loan Data Analysis — the analysis workflow: auditing and reshaping the lending extract in pandas, then plotting funded amount by loan term in Plotly Express.",
+    "gallery": ["/images/bank-loan-1.png", "/images/bank-loan-2.png"],
+    "galleryCaptions": [
+      "Borrower profile — funded amount split by home ownership. Mortgage and rent borrowers carry the overwhelming majority of funding, while outright owners account for a small slice.",
+      "Loan term — 36-month loans account for 273.0M of the funded amount against 162.7M for 60-month terms."
+    ],
+    "role": "Data Analyst",
+    "projectType": "Exploratory Data Analysis",
+    "tools": ["Python", "Pandas", "Plotly Express"],
+    "insight": "Debt Consolidation dominates loan purpose, while borrowers with 10+ years of employment tenure receive the highest funding volume.",
+    "impact": "Supports risk assessment and lending strategy through clear, data-backed borrower patterns.",
+    "overview": "Analysis of bank lending data to uncover loan distribution patterns, borrower demographics and the risk drivers behind them. The goal was to convert a raw lending extract into a clear picture of who borrows, for what purpose, and how that distribution shifts over time.",
+    "data": {
+      "source": "Bank lending dataset of issued loans with borrower and loan attributes.",
+      "volume": "Loan-level records carrying amount, term, interest rate, grade, purpose, employment length, home ownership and issue date.",
+      "structure": "Flat loan-level table audited and cleaned into typed, analysis-ready columns in Pandas."
+    },
+    "approach": [
+      "Audited the dataset in Pandas — data types, missing values, duplicates and outlier ranges — before any aggregation.",
+      "Derived analysis fields such as issue month, employment tenure band and loan term in months.",
+      "Grouped funded volume and loan counts by purpose, employment tenure, home ownership status and issue period.",
+      "Built interactive Plotly Express visuals for each dimension and reviewed them together to find the strongest borrower patterns.",
+      "Documented the findings and their lending implications alongside the notebook so the analysis is reproducible."
+    ],
+    "insights": [
+      "Debt Consolidation is the dominant loan purpose by both funded volume and number of loans.",
+      "Borrowers with 10+ years of employment tenure receive the highest funding volume of any tenure band.",
+      "Home ownership status (Rent / Mortgage) is linked to loan volume, with funded amounts rising steadily toward year-end."
+    ],
+    "businessImpact": [
+      "Gives lending and risk teams a clear read on which borrower profiles carry the most exposure.",
+      "Highlights employment tenure and home ownership as practical segmentation levers for risk assessment.",
+      "Sets up a repeatable analysis notebook that can be re-run as new lending data arrives."
+    ],
+    "github": "https://github.com/shawon-analyst/Bank-Loan-Data-Analysis",
+    "demo": ""
+  },
+  {
+    "slug": "foodpanda-sales-customer-analytics",
+    "name": "FoodPanda Sales & Customer Analytics Dashboard",
+    "shortName": "FoodPanda Analytics",
+    "subtitle": "Sales, Customer & City Operations in Power BI",
+    "image": "/images/foodpanda-cover.jpg",
+    "imageAlt": "FoodPanda Overview page in Power BI: KPI cards for 987M amount, 2M quantity, 240K ratings and 150K orders above an All City Quantity ranking that runs from Dhaka at 383K down to smaller cities, a Sale by Year trend line peaking in 2018, and Non-veg, Veg and Other order cards with their rating counts.",
+    "heroCaption": "FoodPanda Analytics — the Overview page: amount, quantity, ratings and orders against a Top-N city ranking, the Sale by Year trend, and the Veg / Non-veg / Other order and rating split.",
+    "gallery": ["/images/foodpanda-1.jpg", "/images/foodpanda-2.jpg", "/images/foodpanda-3.jpg"],
+    "galleryCaptions": [
+      "User Performance — 78K active users against 78K total users, with 12K gained and 33K lost split by gender, above a users-by-age distribution that peaks in the early twenties.",
+      "City Performance — the city scorecard listing sales, orders, gained users and lost users for every city, totalling 986.5M in sales and 150,281 orders against 11,635 gained and 32,798 lost, beside parallel sales, rating and user rankings.",
+      "Home — the branded landing page that frames the report before the analysis begins, with navigation into the Overview, User Performance and City Performance pages."
+    ],
+    "role": "Data Analyst & Dashboard Developer",
+    "projectType": "Business Intelligence Dashboard",
+    "tools": ["Power BI", "DAX", "Power Query", "Star-Schema Data Modeling", "Custom Visuals"],
+    "insight": "Churn runs nearly three times ahead of acquisition, and the city leading on order volume is not the city leading on sales value.",
+    "impact": "Gives commercial and retention teams one navigable report spanning sales performance, customer health and city-level operations.",
+    "overview": "FoodPanda Sales & Customer Analytics is a Power BI report built on foodpanda order, user, restaurant and menu data covering 87 cities. Order, user, restaurant, menu, order-type and food tables were modelled into a single analytical layer so a viewer can move from company-wide KPIs down to one city's scorecard on one guided path. The objective was to make sales performance, customer acquisition versus churn, and city-level operations answerable without switching between reports.",
+    "data": {
+      "source": "Foodpanda order, user, restaurant, menu and food-category tables covering 87 cities and 100,000 unique customers.",
+      "volume": "150,281 orders in one model, reporting 987M in amount, 2M in quantity, 240K ratings and 150K orders in the selected slice.",
+      "structure": "Star schema — an orders fact table joined to user, restaurant, menu and order-type dimensions, plus calculation tables driving the Top-N ranking, the dynamic titles and the measure-selection toggle."
+    },
+    "approach": [
+      "Shaped the order, user, restaurant, menu, order-type and food tables independently in Power Query before loading them into the model.",
+      "Modelled a star schema with orders as the fact table, joined to the user, restaurant and order-type dimensions on their respective keys.",
+      "Wrote DAX measures for Amount, Quantity, Orders, Ratings, Active Users, Gain Users and Lost Customers, plus the Top-N ranking measures behind the city chart and the dynamic title and sub-heading pair.",
+      "Added calculation tables and a measure-selection toggle so one visual set relabels itself between Amount and Quantity instead of duplicating report pages.",
+      "Wired bookmarks, page-navigation buttons and custom text-search and advanced slicers into a guided Home, Overview, User Performance then City Performance reading path."
+    ],
+    "insights": [
+      "Churn runs well ahead of acquisition: 11,635 users gained against 32,798 lost, a net decline of roughly 21,000 across the modelled base.",
+      "Dhaka dominates order volume at 383K, about 2.9x the next city (Pirojpur, 132K), yet Feni tops sales value at 55.9M and Narsingdi tops order count at 4,463 — volume, value and order count each have a different leader.",
+      "Veg orders carry the highest rating count (80.1K) on the lowest order volume (798K), while Non-veg has the most orders (830K) but a lower rating count (79.6K).",
+      "Sales climbed from 0.2M in 2017 to a 2018 peak of 1.0M, eased to 0.9M in 2019 and fell to 0.4M in 2020.",
+      "Churn skews male — 18.9K of the 33K lost users are male (57%) against 14.1K female — and the same skew appears on the acquisition side at 6.6K male to 5.1K female."
+    ],
+    "businessImpact": [
+      "Commercial and retention teams read acquisition, churn and city performance from one report instead of reconciling separate extracts.",
+      "Separating order volume from sales value by city shows where to push acquisition and where to protect existing revenue.",
+      "A guided reading path and dynamic titles let a non-technical viewer reach a single city's numbers without configuring anything."
+    ],
+    "github": "https://github.com/shawon-analyst/FoodPanda-Sales-Customer-Analytics-Dashboard",
+    "demo": ""
+  }
+]
