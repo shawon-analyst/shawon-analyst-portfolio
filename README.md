@@ -52,7 +52,7 @@ The site presents selected projects as structured case studies and surfaces the 
 4. **Skills & Tools** — Three-card grid: BI & Visualization, Databases & ETL, Programming & Analytics. Cards lift with an accent glow and the skill pills scale and tint on hover. Includes **n8n Automation** under Databases & ETL.
 5. **About** — Short professional summary and what kind of work Md Idris is seeking.
 6. **Explore More Work** — Live grid of other GitHub repositories (see Section 7).
-7. **Contact** — Inquiry form (interest selector, name, email, optional organization, message) with a prominent *Send inquiry* button, alongside email and location as direct details and links to LinkedIn and GitHub. The site is static, so submitting composes a pre-filled email and hands it to the visitor's mail client; the direct address stays on screen as a fallback.
+7. **Contact** — Inquiry form (interest selector, name, email, optional organization, message) with a prominent *Send inquiry* button, alongside email and location as direct details and links to LinkedIn and GitHub. Submitting POSTs the message to a Formspree endpoint (`NEXT_PUBLIC_FORMSPREE_ID`) and reports the outcome inline — a "Thank you, your message has been sent!" card on success, an inline alert with the direct address on failure. A hidden honeypot field absorbs spam, and while the ID is unset the form hands the message to the visitor's mail client rather than dropping it.
 8. **Footer** — Copyright and social links.
 
 ---
@@ -259,12 +259,15 @@ npm install framer-motion lucide-react
 
 ### Environment variables
 
-Copy `.env.example` to `.env.local`. Both variables are optional:
+Copy `.env.example` to `.env.local`. All three variables are optional:
 
 | Variable | Purpose |
 |---|---|
 | `NEXT_PUBLIC_SITE_URL` | Canonical URL used for metadata, `sitemap.xml` and Open Graph tags. Defaults to the Vercel URL above. |
+| `NEXT_PUBLIC_FORMSPREE_ID` | Form ID from the contact form's Formspree endpoint (`https://formspree.io/f/XXXXXXXX`). Submissions are POSTed to it and delivered to the inbox; with it unset the form falls back to the visitor's mail client. |
 | `GITHUB_TOKEN` | Raises the GitHub REST API rate limit for the `/work` feed from 60 to 5000 requests per hour. |
+
+On Vercel, add them under **Project → Settings → Environment Variables**. `NEXT_PUBLIC_*` values are inlined at build time, so set them before the deploy that should pick them up (Vercel offers a redeploy prompt).
 
 ### Folder structure
 
